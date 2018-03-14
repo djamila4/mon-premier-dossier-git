@@ -14,4 +14,17 @@ public class Etudiant{
 		this.prenomEtudiant = prenomEtudiant;
 		
 	}
+//setter et getter
+	public String getNomEtudiant(){
+		return this.nom
+	}
+	public void setNomEtudiant(String nomEtudiant){
+		this.nomEtudiant = nomEtudiant;
+	}
+	public String getPrenomEtudiant(){
+		return this.prenomEtudiant
+	}
+	public void setPrenomEtudiant(String prenomEtudiant){
+		this.prenomEtudiant = prenomEtudiant;
+	}
 }

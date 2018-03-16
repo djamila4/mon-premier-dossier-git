@@ -9,6 +9,11 @@ public class Employe{
 	
 	public Employe(){}
 	
+	public Employe(String nom){
+		this.nom = nom;
+		
+	}
+	
 	public Employe(String nom, String prenom){
 		this.nom = nom;
 			this.prenom = prenom;
